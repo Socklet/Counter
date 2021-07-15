@@ -253,7 +253,6 @@ Terrain:
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
-  m_StaticShadowCaster: 0
   m_ReflectionProbeUsage: 1
   m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
@@ -757,7 +756,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1000,6 +998,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1374373726}
     m_Modifications:
+    - target: {fileID: 837944031975113422, guid: 3c59a5e5319413d47813e247fb9651f1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e083bb0bc11203469947a64dc1190d8, type: 2}
     - target: {fileID: 2229061495697817477, guid: 3c59a5e5319413d47813e247fb9651f1, type: 3}
       propertyPath: m_RootOrder
       value: 6
